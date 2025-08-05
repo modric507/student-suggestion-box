@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #003366; /* Blue */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #000; /* Black background */
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  color: #ffcc00; /* Yellow */
+  margin-bottom: 30px;
+}
+
+.about-link {
+  margin-bottom: 20px;
+}
+
+.about-link a {
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.about-link a:hover {
+  text-decoration: underline;
+}
+
+.login-section h2 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffcc00; /* Yellow */
+  color: #000; /* Black text */
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+.admin-section {
+  margin-top: 20px;
+}
+
+.admin-section a {
+  color: #00c0ff; /* Light Blue for links */
+  text-decoration: none;
+  font-weight: bold;
+}

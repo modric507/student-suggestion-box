@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Dashboard - ICPS</title>
+  <link rel="stylesheet" href="student-dashboard.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, <span id="studentNameDisplay"></span></h1>
+    <p>Write your suggestion below:</p>
+
+    <form id="suggestionForm">
+      <textarea id="suggestionText" placeholder="Enter your suggestion here..." required></textarea>
+      <button type="submit">Submit Suggestion</button>
+    </form>
+
+    <p id="confirmationMessage"></p>
+
+    <h2>Your Suggestions</h2>
+    <div id="studentSuggestions"></div>
+  </div>
+
+  <script src="student-dashboard.js"></script>
+</body>
+</html>

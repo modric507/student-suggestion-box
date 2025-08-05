@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard - ICPS</title>
+  <link rel="stylesheet" href="admin-dashboard.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Dashboard</h1>
+
+    <label for="statusFilter">Filter by status:</label>
+    <select id="statusFilter">
+      <option value="All">All</option>
+      <option value="Pending">Pending</option>
+      <option value="Resolved">Resolved</option>
+    </select>
+
+    <h2>Student Suggestions</h2>
+    <div id="reportContainer"></div>
+  </div>
+
+  <script src="admin-dashboard.js"></script>
+</body>
+</html>
